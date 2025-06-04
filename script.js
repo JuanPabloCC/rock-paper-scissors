@@ -46,5 +46,7 @@ function playRound(computerChoice, humanChoice) {
     } else if (humanChoice === "paper" && computerChoice === "Scissors"){
         computerScore += 1;
         return `You lose! ${computerChoice} beats ${humanChoice}.`
+    } else {
+        return "It's a draw! Try again."
     }
 }
