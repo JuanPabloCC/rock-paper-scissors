@@ -4,13 +4,13 @@ function getComputerChoice() {
 
     switch (randomNumber) {
         case 0:
-            computerChoice = "Rock";
+            computerChoice = "rock";
             break;
         case 1:
-            computerChoice = "Paper";
+            computerChoice = "paper";
             break;
         default:
-            computerChoice = "Scissors";
+            computerChoice = "scissors";
             break;
     }
 
