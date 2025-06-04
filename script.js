@@ -1,6 +1,6 @@
 function getComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3);
-    let computerChoice
+    let computerChoice;
 
     switch (randomNumber) {
         case 0:
@@ -21,3 +21,6 @@ function getHumanChoice() {
     let humanChoice = prompt("Pick an option.");
     return humanChoice
 }
+
+let computerScore = 0;
+let humanScore = 0;
